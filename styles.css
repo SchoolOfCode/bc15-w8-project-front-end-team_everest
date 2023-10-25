@@ -21,28 +21,22 @@ body {
     background-color: #BDE3FF;
     border-radius: 10px;
     width: 100%;
-    max-width: 800px;
-    height: 850px;
+    max-width: 00px;
+    height: 200px;
   }
 
   .secondContainer {
-    padding: 60px;
+    display: block;
     font-family: 'Orbitron', sans-serif;
     background-color: #BDE3FF;
     border-radius: 10px;
-    width: 100%;
-    max-width: 500px;
-    height: 850px;
+    width: 200px;
+    
+    
   }
 
-  #apodImage {
-    display: block;
-    max-width: 700px;
-    max-height: 700px;
-    margin: 0 auto 20px;
-  }
-  
-  #apodText {
+
+  .iceBreakerResponse {
     background-color: #000000;
     color: #ffffff;
     padding: 20px;
@@ -50,13 +44,13 @@ body {
     border-width: 1px;
     border-style: dashed;
     border-radius: 5px;
-    margin-bottom: 20px;
-    height: 700px;
-    text-align: center;
+    margin-bottom: 10px;
+    height: 400px;
+    text-align: left;
 
   }
   
-  #apodButton {
+  .iceBreakerButton {
     display: block;
     font-family: 'Orbitron', sans-serif;
     align-content: center;

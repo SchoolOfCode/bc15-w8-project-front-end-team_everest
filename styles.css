@@ -1,8 +1,8 @@
 body {
-  background-color: #BDE3FF;
+  background-color: #bde3ff;
   margin: 10px;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 img {
@@ -13,11 +13,10 @@ img {
 .socLogoButton {
   display: flex;
   justify-content: center;
-  padding-right: 30px;
 }
 
 .transparent-button {
-  background: url('torteelogo.png') no-repeat;
+  background: url("torteelogo.png") no-repeat;
   border: none;
   cursor: pointer;
 }
@@ -28,7 +27,6 @@ img {
   color: #07122a;
   display: flex;
   justify-content: center;
-  padding-right: 50px;
 }
 
 #iceBreakerButton {
@@ -38,15 +36,11 @@ img {
   font-family: "Poppins", sans-serif;
   height: 50px;
   width: 300px;
- 
 }
-
-
 
 .iceBreakerRequest {
   display: flex;
   justify-content: center;
-  padding-right: 60px;
 }
 
 .secondContainer {
@@ -54,14 +48,10 @@ img {
   width: 305px;
   height: 320px;
   display: flex;
-  
   justify-content: center;
   border: 0.15rem solid #07122a;
-  
-  
+  margin: auto;
 }
-
-
 
 /* body {
     font-family: 'Poppins', sans-serif;
@@ -73,5 +63,3 @@ img {
     background-color: #BDE3FF;
     margin: 0;
   } */
-  
- 

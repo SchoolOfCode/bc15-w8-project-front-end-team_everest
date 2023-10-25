@@ -1,5 +1,4 @@
 import { conversationStarters } from './convo_starters.js';
-import { v4 as uuidv4 } from 'uuid';
 
 console.log(conversationStarters);
 let buttonText = document.getElementById("apodButton")

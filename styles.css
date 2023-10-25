@@ -1,4 +1,46 @@
-body {
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.socLogoButton {
+  display: flex;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.question {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  color: #07122a;
+  display: flex;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+#iceBreakerButton {
+  background-color: #07122a;
+  color: white;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.iceBreakerRequest {
+  display: flex;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.secondContainer {
+  background: blue;
+  width: 300px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+/* body {
     font-family: 'Poppins', sans-serif;
     color: rgb(245, 245, 245);
     display: flex;
@@ -15,11 +57,11 @@ body {
     text-align: justify;
     color: #07122A;
     display: inline-block;
-  }
-    /* img {
+  } */
+/* img {
       background-color: transparent;
     } */
-
+/* 
     .transparent-button {
       width: 100px;
       height: 50px;
@@ -90,4 +132,4 @@ body {
   #apodButton:hover {
     background-color: #e8ffe3;
   }
-  
+    */

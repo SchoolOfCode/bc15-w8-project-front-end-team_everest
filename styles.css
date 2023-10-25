@@ -1,6 +1,13 @@
+body {
+  background-color: #BDE3FF;
+  margin: 10px;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
 img {
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
 }
 
 .socLogoButton {
@@ -9,13 +16,19 @@ img {
   padding-right: 30px;
 }
 
+.transparent-button {
+  background: url('torteelogo.png') no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
 .question {
   font-family: "Poppins", sans-serif;
-  font-size: 10px;
+  font-size: 17px;
   color: #07122a;
   display: flex;
   justify-content: center;
-  padding-right: 30px;
+  padding-right: 50px;
 }
 
 #iceBreakerButton {
@@ -23,22 +36,32 @@ img {
   color: white;
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
+  height: 50px;
+  width: 300px;
+ 
 }
+
+
 
 .iceBreakerRequest {
   display: flex;
   justify-content: center;
-  padding-right: 30px;
+  padding-right: 60px;
 }
 
 .secondContainer {
-  background: blue;
-  width: 300px;
-  height: 380px;
+  background: white;
+  width: 305px;
+  height: 320px;
   display: flex;
+  
   justify-content: center;
-  padding-right: 30px;
+  border: 0.15rem solid #07122a;
+  
+  
 }
+
+
 
 /* body {
     font-family: 'Poppins', sans-serif;
@@ -49,87 +72,6 @@ img {
     height: 100vh;
     background-color: #BDE3FF;
     margin: 0;
-  }
-  
-  p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18pt;
-    text-align: justify;
-    color: #07122A;
-    display: inline-block;
   } */
-/* img {
-      background-color: transparent;
-    } */
-/* 
-    .transparent-button {
-      width: 100px;
-      height: 50px;
-      background: url('torteelogo.png') no-repeat;
-      border: none;
-      cursor: pointer;
-    }
   
-  .container {
-    padding: 60px;
-    align-content: center;
-    font-family: 'Poppins', sans-serif;
-    background-color: #BDE3FF;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 00px;
-    height: 200px;
-  }
-
-  .secondContainer {
-    display: block;
-    font-family: 'Poppins', sans-serif;
-    background-color: #BDE3FF;
-    border-radius: 10px;
-    width: 200px;
-    
-    
-  }
-
-#iceBreakerButton{
-
-    background-color: #07122A;
-    color: white;
-    border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
-    text-orientation: sideways;
-
-  }
-
-  .iceBreakerResponse {
-    background-color: #ffffff;
-    color: #ffffff;
-    padding: 20px;
-    border-color: rgb(0, 0, 0);
-    border-width: 1px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    height: 400px;
-    text-align: left;
-
-  }
-  
-  .iceBreakerButton {
-    display: block;
-    font-family: 'Poppins', sans-serif;
-    align-content: center;
-    margin: 10px auto;
-    padding: 10px 20px;
-    border: none;
-    background-color: #beffd0;
-    color: rgb(0, 0, 0);
-
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.2s;
-  }
-  
-  #apodButton:hover {
-    background-color: #e8ffe3;
-  }
-    */
+ 

@@ -13,28 +13,6 @@ let button = document.getElementById("apodButton")
 // Trigger event when button is clicked
 button.addEventListener("click", changeText)
 
-// Async function which will complete API request.
-// Then parses the API response to return an OBJECT.
-
-// async function returnAPOD() {
-//     console.log("Fetch request is running...");
-//     buttonText.textContent = ("Please wait!")
-
-//     try {
-//         const response = await fetch("https://api.nasa.gov/planetary/apod?count=1&api_key=jom8FVWWcBk1c7oAgbNiDRgtLNaOwGxR6KgF7kk2");
-
-//         if (!response.ok) {
-//             throw new Error('Network response was not ok');
-//         }
-//         const data = await response.json();
-//         //Changes the button text
-
-//         return data
-//     } catch (error) {
-//         console.error('Error fetching APOD data:', error);
-//     }
-// }
-
 // Function to pass in the API result.
 
 const newText = await returnAPOD();

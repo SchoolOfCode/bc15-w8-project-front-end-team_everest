@@ -1,5 +1,5 @@
 body {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: rgb(245, 245, 245);
     display: flex;
     justify-content: center;
@@ -9,15 +9,29 @@ body {
     margin: 0;
   }
   
-  h1 {
-    font-family: 'Orbitron', sans-serif;
+  p {
+    font-family: 'Poppins', sans-serif;
     font-size: 18pt;
-    text-align: center;
+    text-align: justify;
+    color: #07122A;
+    display: inline-block;
   }
+    /* img {
+      background-color: transparent;
+    } */
+
+    .transparent-button {
+      width: 100px;
+      height: 50px;
+      background: url('torteelogo.png') no-repeat;
+      border: none;
+      cursor: pointer;
+    }
+  
   .container {
     padding: 60px;
     align-content: center;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #BDE3FF;
     border-radius: 10px;
     width: 100%;
@@ -27,7 +41,7 @@ body {
 
   .secondContainer {
     display: block;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #BDE3FF;
     border-radius: 10px;
     width: 200px;
@@ -35,14 +49,22 @@ body {
     
   }
 
+#iceBreakerButton{
+
+    background-color: #07122A;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-orientation: sideways;
+
+  }
 
   .iceBreakerResponse {
-    background-color: #000000;
+    background-color: #ffffff;
     color: #ffffff;
     padding: 20px;
     border-color: rgb(0, 0, 0);
     border-width: 1px;
-    border-style: dashed;
     border-radius: 5px;
     margin-bottom: 10px;
     height: 400px;
@@ -52,7 +74,7 @@ body {
   
   .iceBreakerButton {
     display: block;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Poppins', sans-serif;
     align-content: center;
     margin: 10px auto;
     padding: 10px 20px;

@@ -1,0 +1,14 @@
+{
+  "name": "bc15-w8-project-front-end-team_everest",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r Week-long group hackathon.\r <br>\r <br>\r <br>\r <img src=\"./images/logo-01.jpg\" height=150px>\r <br>\r <br>\r <img src=\"./images/teamexpedition.png\" height=300px>\r </div>",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

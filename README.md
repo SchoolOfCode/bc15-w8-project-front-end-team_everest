@@ -1,5 +1,4 @@
-# team_expedition_tortee
-
+# Team-expedition
 
 <div align="center">
 Week-long group hackathon.
